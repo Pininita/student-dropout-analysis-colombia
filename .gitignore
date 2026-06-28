@@ -1,0 +1,21 @@
+# === Datos gigantes (No subir a Git) ===
+*.csv
+*.xlsx
+*.json
+*.pkl
+data/
+
+# === Basura temporal de Jupyter Notebooks ===
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# === Archivos ocultos del sistema y Python ===
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db
+
+# === Entornos virtuales de Anaconda ===
+.venv/
+env/
+ENV/
